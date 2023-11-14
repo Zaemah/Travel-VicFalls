@@ -57,8 +57,8 @@ header a {
 footer {
   color: white;
   background-image: linear-gradient(
-      rgba(39, 32, 68, 0.6),
-      rgba(39, 32, 68, 0.6)
+      rgba(39, 32, 68, 0.7),
+      rgba(39, 32, 68, 0.7)
     ),
     url("../images/footer.jpg");
 
