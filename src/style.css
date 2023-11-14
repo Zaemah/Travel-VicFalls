@@ -8,11 +8,7 @@ body {
     margin: 0 auto;
   }
   
-  .grid {
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
-    grid-gap: 64px;
-  }
+  
   
   section {
     max-width: 1200px;
@@ -101,6 +97,10 @@ body {
 
   .img-responsive {
     max-width: 100%;
+  }
+  .grid {
+    display: grid;
+    grid-gap: 64px;
   }
   
   .grid-2-columns {
