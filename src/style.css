@@ -114,6 +114,10 @@ body {
     width: 100%;
     display: block;
   }
+  .fact-image {
+    width: 600px;
+    height: 400px;
+  }
   .embed {
     width: 100%;
     aspect-ratio: 1.53 /1;
@@ -217,7 +221,12 @@ footer a {
   color: white;
   opacity: 0.7;
 }
-  
+.reference{
+  text-align: center;
+  font-style: italic;
+  text-decoration: wavy;
+}
+
   @media (max-width: 900px) {
     header {
       padding: 60px 0;
@@ -245,7 +254,11 @@ footer a {
   .card-header img {
     display: none;
   }
-
+  .fact-image {
+    width: 300px;
+    height: 200px;
+  }
+  
   .embed {
     aspect-ratio: 16 / 9;
   }
